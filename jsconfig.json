@@ -1,0 +1,62 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "allowJs": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "/*": [
+        "./*"
+      ],
+      "meteor/mongo": [
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/local_collection_driver.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/collection.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/connection_options.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/doc_fetcher.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/mongo_driver.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/mongo_utils.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/observe_multiplex.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/oplog_observe_driver.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/oplog_tailing.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/oplog_v2_converter.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/polling_observe_driver.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/mongo/1.16.4/web.browser/remote_collection_driver.js"
+      ],
+      "meteor/es5-shim": [
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/es5-shim/4.8.0/web.browser/client.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/es5-shim/4.8.0/web.browser/console.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/es5-shim/4.8.0/web.browser/cordova.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/es5-shim/4.8.0/web.browser/export_globals.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/es5-shim/4.8.0/web.browser/import_globals.js"
+      ],
+      "meteor/ecmascript": [
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/ecmascript/0.16.5/web.browser/ecmascript.js"
+      ],
+      "meteor/shell-server": [
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/shell-server/0.5.0/web.browser/main.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/shell-server/0.5.0/web.browser/shell-server.js"
+      ],
+      "meteor/zodern:melte": [
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/zodern_melte/1.6.1/web.browser/tracker.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/zodern_melte/1.6.1/web.browser/SvelteCompiler.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/zodern_melte/1.6.1/web.browser/hmr-runtime.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/zodern_melte/1.6.1/web.browser/plugin.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/zodern_melte/1.6.1/web.browser/proxy-adapter.js"
+      ],
+      "meteor/hot-module-replacement": [
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/hot-module-replacement/0.5.2/web.browser/hot-api.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/hot-module-replacement/0.5.2/web.browser/client.js",
+        "C:\\Users\\Andrew\\AppData\\Local/.meteor/packages/hot-module-replacement/0.5.2/web.browser/server.js"
+      ]
+    }
+  },
+  "typeAcquisition": {
+    "include": [
+      "meteor"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    ".meteor"
+  ]
+}
