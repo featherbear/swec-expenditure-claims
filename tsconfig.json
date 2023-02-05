@@ -1,20 +1,17 @@
 {
-  // see https://guide.meteor.com/build-tool.html#typescript for a config example
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true, // to be able to import eg meteor/mongo
-    "baseUrl": ".", // required by "paths"
-    "module": "esNext", // required by "preserveValueImports"
-    "moduleResolution": "node", // required by zodern:types (not documented)
-    "paths": {
-      "/*": ["*"], // support absolute /imports/* with a leading '/'
-      // support Meteor/Atmospehere packages, required by zodern:types
-      "meteor/*": [
-        "node_modules/@types/meteor/*",
-        ".meteor/local/types/packages.d.ts"
-      ]
-    },
-    "preserveSymlinks": true, // required by zodern:types
-    "preserveValueImports": true // otherwise TS will remove imported components
-  },
-  "exclude": ["./.meteor/**", "./packages/**"] // this may solve VS Code Svelte plugin warnings
+	"extends": "./.svelte-kit/tsconfig.json",
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true
+	}
+	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
+	//
+	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
+	// from the referenced tsconfig.json - TypeScript does not merge them in
 }
